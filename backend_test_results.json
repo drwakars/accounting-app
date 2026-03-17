@@ -1,0 +1,135 @@
+[
+  {
+    "test": "Authentication - Valid Login",
+    "success": true,
+    "message": "Successfully logged in as admin",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:41.402759"
+  },
+  {
+    "test": "Authentication - Invalid Login",
+    "success": true,
+    "message": "Correctly rejected invalid credentials",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:41.845195"
+  },
+  {
+    "test": "Authentication - Get Current User",
+    "success": true,
+    "message": "Retrieved user info for admin",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:42.054253"
+  },
+  {
+    "test": "People - Create Person",
+    "success": true,
+    "message": "Created person '\u0645\u062d\u0645\u062f \u0623\u062d\u0645\u062f' with ID: 417d9d0b-13cf-420b-a21d-236ad189fa06",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:42.198301"
+  },
+  {
+    "test": "People - Initial Balances",
+    "success": true,
+    "message": "Initial balances set correctly (USD: 1000, IQD: 1500000)",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:42.198333"
+  },
+  {
+    "test": "People - Get All People",
+    "success": true,
+    "message": "Found created person in list (total: 2)",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:42.370758"
+  },
+  {
+    "test": "People - Get Person By ID",
+    "success": true,
+    "message": "Retrieved person details for ID: 417d9d0b-13cf-420b-a21d-236ad189fa06",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:42.533952"
+  },
+  {
+    "test": "Transactions - Create Deposit",
+    "success": true,
+    "message": "Created USD deposit of 500 (ID: 87a8ddf0-6c70-4193-bd3b-332d0e2890ec)",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:42.708871"
+  },
+  {
+    "test": "Transactions - Create Withdraw",
+    "success": true,
+    "message": "Created IQD withdraw of 200000 (ID: 426aaaf1-0c03-4422-804a-d4d33fcae8ee)",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:42.876323"
+  },
+  {
+    "test": "Transactions - Get Person Transactions",
+    "success": true,
+    "message": "Retrieved 2 transactions for person",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:43.079349"
+  },
+  {
+    "test": "Transactions - Balance Updates",
+    "success": true,
+    "message": "Balances updated correctly (USD: 1500.0, IQD: 1300000.0)",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:43.221915"
+  },
+  {
+    "test": "Transactions - Overdraft Protection",
+    "success": true,
+    "message": "Correctly prevented overdraft transaction",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:43.360531"
+  },
+  {
+    "test": "Reports - Monthly Report",
+    "success": true,
+    "message": "Retrieved monthly report for 2026-03",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:43.581711"
+  },
+  {
+    "test": "Reports - Report Structure",
+    "success": true,
+    "message": "Monthly report contains all required fields",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:43.581744"
+  },
+  {
+    "test": "Reports - Transaction Calculation",
+    "success": true,
+    "message": "Deposits and withdrawals correctly calculated in report",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:43.581750"
+  },
+  {
+    "test": "Admin - Get All Users",
+    "success": true,
+    "message": "Retrieved 1 users",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:43.731573"
+  },
+  {
+    "test": "Admin - Create User",
+    "success": true,
+    "message": "Created user 'testuser' with ID: 26094aab-6ca1-4eab-8900-35be4cf8c044",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:44.076909"
+  },
+  {
+    "test": "Admin - Get Audit Logs",
+    "success": true,
+    "message": "Retrieved 8 audit log entries",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:44.194324"
+  },
+  {
+    "test": "Admin - Audit Logging",
+    "success": true,
+    "message": "Found 8 audit entries for admin user",
+    "details": {},
+    "timestamp": "2026-03-17T19:12:44.194359"
+  }
+]
